@@ -39,6 +39,7 @@ body {
 
 .header {
   border-bottom: 1px solid var(--cornflower);
+  box-shadow: 0px 2px 1px rgba;
 }
 
 .top-header {
@@ -118,18 +119,30 @@ li > .link:focus {
 /* First Section */
 
 .first-section {
+  height: 600px;
+  padding: 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/Hero-background-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-color: var(--navy-blue);
-  padding: 188px 0;
+  margin: auto;
 }
 
 .main-header {
+  text-align: center;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
   max-width: 496px;
   margin: 0 auto 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
 }
 
 .button {
