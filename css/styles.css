@@ -326,17 +326,23 @@ li > .link:focus {
 
 /*fift Section*/
 
-.container .customers {
+.third-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   column-gap: 16px;
   row-gap: 72px;
+  text-decoration: none;
 }
 
 .customers-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
+  text-decoration: none;
+}
+
+.section-tittle {
+  text-align: center;
 }
 
 .customers-link {
@@ -350,7 +356,7 @@ li > .link:focus {
   color: #8e8f99;
 }
 
-.customers-header {
+.container-customers {
   margin-bottom: 72px;
   justify-content: center;
   color: var(--NAVY-BLUE, #2e2f42);
@@ -374,6 +380,7 @@ li > .link:focus {
 
 .customers {
   margin-top: -120px;
+  text-decoration: none;
 }
 /* Reused item header from main  */
 
