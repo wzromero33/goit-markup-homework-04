@@ -172,6 +172,24 @@ li > .link:focus {
 
 /* Second Section */
 
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+/* .container section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+} */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -183,12 +201,6 @@ li > .link:focus {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
 }
 
 .info .list-header,
