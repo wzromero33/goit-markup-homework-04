@@ -172,27 +172,23 @@ li > .link:focus {
 
 /* Second Section */
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
-  height: 1px;
-  margin: -1px;
+  height: 112px;
+  margin: 1px;
   border: 0;
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .info .list-header,
