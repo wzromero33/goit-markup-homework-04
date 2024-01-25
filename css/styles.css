@@ -179,21 +179,13 @@ li > .link:focus {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  height: 112px;
 }
-
-/* .container section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
-} */
 
 .visually-hidden {
   position: absolute;
   width: 1px;
-  height: 112px;
+  height: 1px;
   margin: 1px;
   border: 0;
   padding: 0;
