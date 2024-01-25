@@ -219,7 +219,6 @@ li > .link:focus {
 }
 
 /* Third Section */
-
 .header-title {
   font-size: 36px;
   line-height: 1.11;
@@ -258,9 +257,11 @@ li > .link:focus {
 /* Reused third section header from main */
 
 .team-member {
-  background-color: var(--white);
-  flex-basis: calc((100% - 72px) / 4);
-  border-radius: 0 0 4px 4px;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .member-info {
@@ -297,6 +298,7 @@ li > .link:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #f4f4fd;
 }
 
 .list-header {
@@ -308,11 +310,9 @@ li > .link:focus {
   text-align: center;
 }
 
-.socmed-icon:hover {
+.socmed-icon:hover,
+.socmed-icon:focus {
   fill: #404bbf;
-  .socmed-icon:focus {
-    fill: #404bbf;
-  }
 }
 
 /*fift Section*/
@@ -424,7 +424,7 @@ li > .link:focus {
 
 .footer-socmed-link:hover,
 .footer-socmed-link:focus {
-  background-color: var(--green);
+  background-color: #31d0aa;
 }
 
 .footer-socmed-svg {
