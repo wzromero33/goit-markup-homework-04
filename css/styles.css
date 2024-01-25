@@ -297,6 +297,10 @@ li > .link:focus {
   margin-top: 8px;
 }
 
+.socmed-icon {
+  fill: #f4f4fd;
+}
+
 .socmed-items {
   width: 40px;
   height: 40px;
