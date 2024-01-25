@@ -322,7 +322,7 @@ li > .link:focus {
   text-align: center;
 }
 
-.socmed-icon:hover,
+.socmed-link:hover,
 .socmed-link:focus {
   fill: #404bbf;
   background-color: #404bbf;
